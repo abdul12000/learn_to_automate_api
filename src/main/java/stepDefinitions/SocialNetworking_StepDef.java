@@ -92,5 +92,13 @@ public class SocialNetworking_StepDef extends BaseSteps implements En {
                     assertThat(responseForCommentCall.body().jsonPath().get("email"), is(email));
                     assertThat(responseForCommentCall.body().jsonPath().get("body"), is(body));
         });
+        When("^i search for User with \"([^\"]*)\" with a GET method$", (String arg0) -> {
+            // Write code here that turns the phrase above into concrete actions
+            throw new PendingException();
+        });
+        Then("^i should see the correct \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\" and \"([^\"]*)\" are returned with status code of (\\d+)$", (String arg0, String arg1, String arg2, String arg3, Integer arg4) -> {
+            // Write code here that turns the phrase above into concrete actions
+            throw new PendingException();
+        });
     }
 }
