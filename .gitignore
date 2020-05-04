@@ -1,0 +1,11 @@
+# ignore target
+/target/
+
+# ignore .idea
+*.idea
+
+# ignore web_automation.iml
+web_automation.iml
+
+
+
